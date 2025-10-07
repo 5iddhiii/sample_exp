@@ -1,17 +1,8 @@
 version: 0.2
-
 phases:
-  install:
-    runtime-versions:
-      nodejs: 14  # Optional, if you need Node.js
   build:
     commands:
-      - echo "Build started on `date`"
-      # Add build commands here if needed, like `npm run build`
-      - echo "Build completed on `date`"
-
+      - echo "Build stage completed"
 artifacts:
   files:
     - '**/*'
-  base-directory: 'src'  # Adjust if your site files are inside 'src' folder, or remove if root
-
